@@ -1,0 +1,30 @@
+{
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+
+    // aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [80, 120],
+    "editor.formatOnSave": false,
+    "eslint.packageManager": "yarn",
+
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json"
+    },
+    //Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight": "gutter",
+    
+}
