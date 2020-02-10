@@ -9,7 +9,8 @@ class ProviderController {
       include: [
         {
           model: File,
-          as: 'avatar'
+          as: 'avatar',
+          attributes: ['name', 'path']
         }
       ]
     });
